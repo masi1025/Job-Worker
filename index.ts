@@ -75,7 +75,7 @@ const risikoDaten = response.data;
 
     console.log("Risikoanalyse abgeschlossen:", {
       risikokategorie,
-      risikoWert: risikoWert.toFixed(2),
+      //risikoWert: risikoWert.toFixed(2),
       zinssatz: zinssatz.toFixed(2)
     });
 
